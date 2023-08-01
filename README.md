@@ -1,13 +1,33 @@
-The core classes, functions, and methods that will be necessary for this project are:
+# Netlife SEO - Chrome Extension
 
-1. `popup.html`: This is the HTML file that will be displayed when the user clicks on the extension icon in the Chrome toolbar. It will contain the structure of the popup and the elements where the SEO values will be displayed.
+## About
 
-2. `popup.js`: This JavaScript file will contain the logic for extracting the SEO values from the current page and updating the popup with these values. It will also contain the logic for determining if the SEO values follow best practices.
+Netlife SEO is a Chrome Extension designed to help SEO professionals and web developers to quickly validate SEO related aspects of their web pages. It validates and provides information on important SEO elements like `title`, `meta description`, `canonical URL`, `meta robots`, `word count`, `h1 to h6 headers`, and `robots.txt` file.
 
-3. `popup.css`: This CSS file will contain the styles for the popup. It will define the appearance of the popup and the green and red circle icons.
+## Features
 
-4. `manifest.json`: This JSON file will define the basic properties of the extension, such as its name, version, and permissions. It will also specify the files to be used for the popup and the background script.
+1. **SEO Element Validation**: Validate important SEO elements like `title`, `meta description`, `canonical URL`, `meta robots`, `word count`, and `h1 to h6 headers`.
+2. **Robots.txt Validation**: Validate the existence and directives of `robots.txt`.
+3. **Instant Status Indicator**: Instant visual feedback (Pass/Warn/Fail) on the validity of SEO aspects.
+4. **Header Overview**: A quick overview of all header tags (`h1` to `h6`) used in the page.
 
-Now, let's write the content of each file.
+## How to Install
 
-`manifest.json`
+1. Download or clone this repository to your local machine.
+2. Open Google Chrome, navigate to `chrome://extensions`.
+3. Enable `Developer Mode` by clicking the toggle switch on the top right.
+4. Click `Load unpacked` and select the directory of this repository.
+
+You should now see the Netlife SEO extension icon on your Chrome toolbar!
+
+## How to Use
+
+Simply click the extension icon on your Chrome toolbar while on any web page, and the extension will automatically validate the SEO aspects of the current page and display the results in a pop-up.
+
+## Contribution
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License.
