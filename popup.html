@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body class="seo-container">
+  <div id="header">
+    <h1>Netlife SEO</h1>
+  </div>
+  <div class="tab">
+    <button class="tablinks" id="tab-basic">Generelt</button>
+    <button class="tablinks" id="tab-headers">Overskrifter</button>
+  </div>
+  <div id="Basic" class="tabcontent">
+    <table id="seo-values">
+      <tr id="title-row">
+        <td class="status"></td>
+        <td>Tittel <span id="title-length"></span></td>
+        <td id="title"></td>
+      </tr>
+      <tr id="description-row">
+        <td class="status"></td>
+        <td>Metabeskrivelse <span id="meta-description-length"></span></td>
+        <td id="meta-description"></td>
+      </tr>
+      <tr id="wordCount-row">
+        <td class="status"></td>
+        <td>Antall ord</td>
+        <td id="word-count"></td>
+      </tr>
+      <tr id="url-row">
+        <td class="status"></td>
+        <td>Canonical URL</td>
+        <td id="canonical-url"></td>
+      </tr>
+      <tr id="robots-row">
+        <td class="status"></td>
+        <td>Indeksering</td>
+        <td id="meta-robots"></td>
+      </tr>
+      <tr id="robotsTxt-row">
+        <td class="status"></td>
+        <td>robots.txt</td>
+        <td id="robots-txt"></td>
+      </tr>
+    </table>
+  </div>
+  <div id="Headers" class="tabcontent">
+    <table id="headers-table">
+    </table>
+  <script type="module" src="./popup.js"></script>
+</body>
+</html>
